@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const target = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*(-_=+)"
+const target = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#%^&*(-_=+)"
 
 func init() {
 	rand.Seed(time.Now().UTC().UnixNano())
